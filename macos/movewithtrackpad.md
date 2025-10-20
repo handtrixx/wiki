@@ -1,8 +1,8 @@
 ---
 title: Reanimation: Auf MacOS mit 3 Fingern Fenster schieben
-description: Aus einem mir nicht erklärlichen Grund, ist auf dem Mac seit geraumer Zeit das verschieben von Fenstern und Objekten mittels 3-Finger-Geste nicht mehr im Standard aktiviert.
+description: 
 published: true
-date: 2025-10-19T15:40:03.500Z
+date: 2025-10-20T17:17:36.697Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T14:53:22.897Z
