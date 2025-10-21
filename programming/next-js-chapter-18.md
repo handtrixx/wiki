@@ -1,8 +1,8 @@
 ---
-title: 'Learn Next.js - Chapter 18: Docker Environment
+title: Learn Next.js - Chapter 18: Docker Environment
 description: 
 published: true
-date: 2025-10-21T16:06:22.947Z
+date: 2025-10-21T16:06:59.733Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T16:06:22.947Z
