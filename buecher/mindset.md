@@ -2,13 +2,13 @@
 title: Mindset
 description: 
 published: true
-date: 2025-10-20T19:52:09.671Z
+date: 2025-10-25T17:34:11.859Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-20T19:52:09.671Z
 ---
 
-Du denkst du bist immer offen gegenüber allem und jedem und auch so total „open-minded“? 
+[mindset](/Bücher/mindset)Du denkst du bist immer offen gegenüber allem und jedem und auch so total „open-minded“? 
 Das dachte ich auch und dann las ich dieses Buch. Dr. Carol Dweck gelingt es auf weniger als 300 Seiten, uns selbst soweit zu entlarven dass man erkennt, dass man vielleicht in einigen oder sogar vielen Disziplinen 
 ein wirklich offener Mensch, aber in anderen Bereichen genau in das Gegenteil verfallen ist.
 
