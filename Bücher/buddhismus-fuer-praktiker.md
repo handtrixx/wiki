@@ -1,8 +1,8 @@
 ---
-title: Buddhismus für Praktiker von Volker Zotz
-description: 
+title: Mit Buddha das Leben meistern
+description: Buddhismus für Praktiker von Volker Zotz
 published: true
-date: 2025-10-20T19:29:55.021Z
+date: 2025-10-26T17:12:53.695Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-20T19:29:55.021Z
