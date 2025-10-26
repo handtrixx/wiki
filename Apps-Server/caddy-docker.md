@@ -1,9 +1,9 @@
 ---
-title: Caddy als Reverse Proxy für Docker Compose Container
-description: 
+title: Caddy
+description:  Reverse Proxy für Docker Container
 published: true
-date: 2025-10-21T16:17:43.137Z
-tags: linux, docker
+date: 2025-10-26T11:58:45.759Z
+tags: docker, linux
 editor: markdown
 dateCreated: 2025-10-21T16:17:43.137Z
 ---
