@@ -2,7 +2,7 @@
 title: Feste IP-Adressen mit Docker Compose
 description: 
 published: true
-date: 2025-10-20T19:38:47.860Z
+date: 2025-10-26T12:01:55.032Z
 tags: linux
 editor: markdown
 dateCreated: 2025-10-20T19:38:47.860Z
