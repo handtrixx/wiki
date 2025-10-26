@@ -1,8 +1,8 @@
 ---
-title: Rechenkraft für die Wissenschaft mit BOINC
-description: 
+title: BOINC
+description: Rechenkraft für die Wissenschaft
 published: true
-date: 2025-10-19T15:51:53.406Z
+date: 2025-10-26T16:46:37.645Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T15:51:52.552Z
