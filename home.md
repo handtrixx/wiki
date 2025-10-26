@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-26T12:20:04.376Z
+date: 2025-10-26T12:21:25.779Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-22T17:32:00.285Z
@@ -30,9 +30,10 @@ graph TD
 ```
 
 
-
+```plantuml
 @startuml
 Bob -> Alice : hello
 @enduml
+```
 
 
