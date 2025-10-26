@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-26T16:41:47.521Z
+date: 2025-10-26T16:42:40.896Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
@@ -14,7 +14,7 @@ Alles rund um Applikationen die entweder auf dem Homeserver oder im Rechenzentru
 
 ## Docker
 
-- [Docker *Container Engine warten und verwalten.*](/Apps-Server/caddy-docker)
+- [Docker *Container Engine warten und verwalten.*](/Apps-Server/docker)
 {.links-list}
 
 ## Docker Server Images
