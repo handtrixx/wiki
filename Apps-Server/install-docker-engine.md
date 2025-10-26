@@ -1,9 +1,9 @@
 ---
-title: Docker Engine auf einem Linux Server installieren
-description: 
+title: Docker
+description: Engine auf einem Linux Server installieren
 published: true
-date: 2025-10-20T19:49:43.605Z
-tags: linux, docker
+date: 2025-10-26T12:00:09.769Z
+tags: docker, linux
 editor: markdown
 dateCreated: 2025-10-20T19:48:05.125Z
 ---
