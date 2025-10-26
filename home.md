@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-26T11:11:09.768Z
+date: 2025-10-26T12:14:56.545Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-22T17:32:00.285Z
@@ -18,6 +18,17 @@ Wiki.js is quick and easy to install. You should be up and running in no time.
 - [Installation Guide *Detailed installation instructions for all platforms.*](/install)
 {.links-list}
 
+
+```kroki
+mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
 
 
 
