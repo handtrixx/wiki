@@ -2,15 +2,13 @@
 title: Apple Time Machine
 description: Backup auf einen Netzwerkspeicher mit Linux und Docker Compose
 published: true
-date: 2025-10-26T11:56:22.145Z
+date: 2025-10-26T11:58:11.805Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-22T16:19:02.245Z
 ---
 
-
-Brauchen wir 2025 wirklich noch eine spezielle Lösung für das Backup unseres Rechners? 
-Wir haben doch iCloud/OneDrive/…! – Korrekt, aber dabei handelt es sich um Dateisynchronisation und nicht um Backups! Den Unterschied und wie man mit Hilfe eines Raspberry Pi oder ähnlichem mit Docker Compose eine Backup Lösung für seinen Mac aufsetzt, die der original Apple TimeMachine in nichts nachsteht, erkläre ich in diesem Post.
+Wie man mit Hilfe eines Raspberry Pi oder ähnlichem mit Docker Compose eine Backup Lösung für seinen Mac aufsetzt, die der original Apple TimeMachine in nichts nachsteht, erkläre ich in diesem Post.
 
 ![01_mac_time_machine_logo-56a5d49b5f9b58b7d0de9f0b-1.jpg](/assets/linux/docker-time-machine/01_mac_time_machine_logo-56a5d49b5f9b58b7d0de9f0b-1.jpg){.align-center}
 
@@ -18,27 +16,17 @@ Wir haben doch iCloud/OneDrive/…! – Korrekt, aber dabei handelt es sich um D
 
 Mit der sogenannten TimeMachine hatte Apple es wieder einmal geschafft, 
 einen Service der bei anderen wahnsinnig kompliziert einzurichten ist/war, kinderleicht bedienbar zu machen. 
-Leider scheinen Datensicherungen in das lokale Netz aus der Mode gekommen zu sein, 
-so propagiert Apple selbst nur noch das Backup direkt auf einen USB-Speicher oder eben in die eigene iCloud. 
-Dabei haben beide Lösungen größere Nachteile. Für das lokale Backup muss ich immer daran denken, 
-dass externe Speichermedium in den Rechner zu stecken und kommt es z.B. zu einem Kurzschluss 
-während beide Geräte miteinander verbunden sind, sind auch beide zerstört. Dahin ist die Datensicherung, 
-genau dann wenn man sie am meisten braucht. Die Alternativen iCloud und Co. begleiten ebenfalls mehrere Nachteile. 
-Zum Einem vertrauen wir unsere Daten einem externen Anbieter an, der uns zwar versprechen kann dass diese dort 
-sicher und geschützt aufbewahrt werden, aber garantieren kann uns das niemand. 
+Leider scheinen Datensicherungen in das lokale Netz aus der Mode gekommen zu sein, so propagiert Apple selbst nur noch das Backup direkt auf einen USB-Speicher oder eben in die eigene iCloud. 
+Dabei haben beide Lösungen größere Nachteile. Für das lokale Backup muss ich immer daran denken, dass externe Speichermedium in den Rechner zu stecken und kommt es z.B. zu einem Kurzschluss während beide Geräte miteinander verbunden sind, sind auch beide zerstört. Dahin ist die Datensicherung, genau dann wenn man sie am meisten braucht. Die Alternativen iCloud und Co. begleiten ebenfalls mehrere Nachteile. 
+Zum Einem vertrauen wir unsere Daten einem externen Anbieter an, der uns zwar versprechen kann dass diese dort sicher und geschützt aufbewahrt werden, aber garantieren kann uns das niemand. 
 Außerdem handelt es sich bei iCloud und ähnlichen zunächst nur um Services zur Dateisynchronisation. 
-D.h. meine Daten werden parallel lokal und eben in der Cloud abgelegt. Das heisst auch, 
-wenn ich eine Datei lokal lösche, passiert das gleiche auch in der Cloud. Und wieder Adieu liebe Dateischerung. 
-Dem entgegen wirk die Dateiversionierung die entweder Standardmäßig oder optional aktiviert werden kann, 
-allerdings habe ich selbst die Erfahrung gemacht, dass diese auch genau 
+D.h. meine Daten werden parallel lokal und eben in der Cloud abgelegt. Das heisst auch, wenn ich eine Datei lokal lösche, passiert das gleiche auch in der Cloud. Und wieder Adieu liebe Dateischerung. 
+Dem entgegen wirk die Dateiversionierung die entweder Standardmäßig oder optional aktiviert werden kann, allerdings habe ich selbst die Erfahrung gemacht, dass diese auch genau 
 dann wenn man sie bräuchte gerade mal nicht funktioniert.
 
-Aus diesen und anderen Gründen hat Apple noch ein „Türchen“ offen gelassen und stellt es anderen Herstelleren 
-z.B. von Netzwerkspeichern wie QNAP frei, TimeMachine in ihre Hardwarelsöungen einzubinden, 
-auch wenn Apple selbst keine entsprechende Hardware mehr vertreibt. 
+Aus diesen und anderen Gründen hat Apple noch ein „Türchen“ offen gelassen und stellt es anderen Herstelleren z.B. von Netzwerkspeichern wie QNAP frei, TimeMachine in ihre Hardwarelsöungen einzubinden, auch wenn Apple selbst keine entsprechende Hardware mehr vertreibt. 
 
-alls ihr aber so wie ich sowieso schon einen Linux Server oder RaspberryPi mit Docker Compose habt, 
-geht es auch noch einfacher: Wir konfigurieren einfach einen Container der als TimeMachine Server im Heimnetz dient!
+Falls ihr aber so wie ich sowieso schon einen Linux Server oder RaspberryPi mit Docker Compose habt, geht es auch noch einfacher: Wir konfigurieren einfach einen Container der als TimeMachine Server im Heimnetz dient!
 
 ![02_timemachinenet2usb.png](/assets/linux/docker-time-machine/02_timemachinenet2usb.png){.align-center}
 
