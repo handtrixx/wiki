@@ -1,8 +1,8 @@
 ---
-title: Visual Studio Code im Webinterface mit Docker und Caddy
-description: 
+title: VS Code Server
+description: Visual Studio Code im Webinterface mit Docker und Caddy
 published: true
-date: 2025-10-21T17:28:29.299Z
+date: 2025-10-26T16:48:47.612Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-21T17:28:29.299Z
