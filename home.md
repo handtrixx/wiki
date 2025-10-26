@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-26T12:21:25.779Z
+date: 2025-10-26T12:22:12.677Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-22T17:32:00.285Z
@@ -29,11 +29,15 @@ graph TD
   C --> F[ Advocating ]
 ```
 
+test
+
+
 
 ```plantuml
 @startuml
 Bob -> Alice : hello
 @enduml
 ```
+
 
 
