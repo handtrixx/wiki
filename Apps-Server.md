@@ -2,20 +2,24 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-26T16:55:28.125Z
+date: 2025-10-26T16:56:50.521Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
 ---
 
-Alles rund um Applikationen die entweder auf dem Homeserver oder im Rechenzentrum laufen.
+Alles rund um Applikationen die entweder auf dem Homeserver oder dem Server im Rechenzentrum laufen.
 
 # Docker
+
+Die Docker Engine zusammen mit Docker Compose lässt uns verschiedenste Applikationen einfach betreiben.
 
 - [Docker *Container Engine warten und verwalten.*](/Apps-Server/docker)
 {.links-list}
 
 # Docker Server Images
+
+Verschiedene von mir für den Betrieb als Docker Container angepasste Applikationen.
 
 - [Apple Time Machine *Backup von MacOS Clients*](/Apps-Server/docker-time-machine)
 - [BOINC *Rechenkraft für die Wissenschaft*](/Apps-Server/boinc)
