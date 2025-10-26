@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-26T16:36:32.045Z
+date: 2025-10-26T16:41:47.521Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
@@ -14,11 +14,11 @@ Alles rund um Applikationen die entweder auf dem Homeserver oder im Rechenzentru
 
 ## Docker
 
-[docker](/Apps-Server/docker)
+- [Docker *Container Engine warten und verwalten.*](/Apps-Server/caddy-docker)
+{.links-list}
 
 ## Docker Server Images
 
-[Time Machine](/Apps-Server/docker-time-machine)
-
-[Caddy](/Apps-Server/caddy-docker)
-
+- [Time Machine *Backup von MacOS Clients.*](/Apps-Server/docker-time-machine)
+- [Installation Guide *Reverse Proxy*](/Apps-Server/caddy-docker)
+{.links-list}
