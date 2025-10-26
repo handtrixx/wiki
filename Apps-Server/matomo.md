@@ -1,8 +1,8 @@
 ---
-title: Web Analytics selbstgemacht mit Matomo
-description: 
+title: Matomo
+description: Web Analytics selbstgemacht
 published: true
-date: 2025-10-21T17:34:39.658Z
+date: 2025-10-26T16:49:22.105Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-21T17:34:39.658Z
