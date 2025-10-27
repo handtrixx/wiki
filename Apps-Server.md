@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-26T16:56:50.521Z
+date: 2025-10-27T10:24:43.245Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
@@ -29,5 +29,6 @@ Verschiedene von mir für den Betrieb als Docker Container angepasste Applikatio
 - [Ollama *Setup your own ChatGPT clone in 5 minutes*](/Apps-Server/chatgpt-clone)
 - [SearXNG *Die eigene Suchmaschine*](/Apps-Server/SearXNG)
 - [VS Code Server *Visual Studio Code im Webinterface mit Docker und Caddy*](/Apps-Server/vscode-web)
+- [Wiki.js *Dein eigenes Wikipedia für deinen digitalen Garten*](/Apps-Server/wikijs)
 - [Wordpress *Das Web Content Management System*](/Apps-Server/wordpress-caches)
 {.links-list}
