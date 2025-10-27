@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-27T10:24:43.245Z
+date: 2025-10-27T11:00:17.375Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
@@ -22,8 +22,10 @@ Die Docker Engine zusammen mit Docker Compose lässt uns verschiedenste Applikat
 Verschiedene von mir für den Betrieb als Docker Container angepasste Applikationen.
 
 - [Apple Time Machine *Backup von MacOS Clients*](/Apps-Server/docker-time-machine)
+- [Artalk *Kommentare in deinen Web-Apps*](/Apps-Server/artalk)
 - [BOINC *Rechenkraft für die Wissenschaft*](/Apps-Server/boinc)
 - [Caddy *Reverse Proxy*](/Apps-Server/caddy-docker)
+- [Calibre-Web *Deine Online Bibliothek*](/Apps-Server/calibre-web)
 - [Cockpit WCMS *Headless CMS, APIs und IoT für die Website*](/Apps-Server/cockpitcms)
 - [Matomo *Web Analytics selbstgemacht*](/Apps-Server/matomo)
 - [Ollama *Setup your own ChatGPT clone in 5 minutes*](/Apps-Server/chatgpt-clone)
