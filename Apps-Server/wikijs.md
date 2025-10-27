@@ -2,7 +2,7 @@
 title: Wiki.js
 description: Dein eigenes Wikipedia
 published: true
-date: 2025-10-26T17:15:07.135Z
+date: 2025-10-27T09:29:16.554Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T17:15:07.135Z
@@ -15,7 +15,7 @@ Your content here
 mermaid
 
 graph TD
-  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  A[ Anyone ] -->|Can help | B( Go to https://github.com/yuzutech/kroki )
   B --> C{ How to contribute? }
   C --> D[ Reporting bugs ]
   C --> E[ Sharing ideas ]
