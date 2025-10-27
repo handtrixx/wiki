@@ -2,7 +2,7 @@
 title: Artalk
 description: Dein eigenes Kommentar-Managementsystem
 published: true
-date: 2025-10-27T10:45:08.650Z
+date: 2025-10-27T10:45:30.040Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-27T10:33:21.545Z
@@ -10,7 +10,7 @@ dateCreated: 2025-10-27T10:33:21.545Z
 
 [Artalk](https://artalk.js.org), eine in GO geschriebene Anwendung, dient dazu eine Kommentarfunktion in WebApps einzubinden und zu verwalten. Das kann entweder durch eine native Integration wie bei [Wiki.js](/Apps-Server/wikijs) oder manuell ober die Artalk API erfolgen. Artalk ist Open-Source und lässt sich, wie im Beispiel hier, in einem Docker Container auf einem Server betreiben.
 
-<video width="480px">
+<video width="480px" autoplay>
   <source src="/assets/linux/artalk/artalk.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
