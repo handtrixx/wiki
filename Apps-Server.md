@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-27T11:00:17.375Z
+date: 2025-10-29T10:12:04.587Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z
@@ -28,6 +28,7 @@ Verschiedene von mir für den Betrieb als Docker Container angepasste Applikatio
 - [Calibre-Web *Deine Online Bibliothek*](/Apps-Server/calibre-web)
 - [Cockpit WCMS *Headless CMS, APIs und IoT für die Website*](/Apps-Server/cockpitcms)
 - [Matomo *Web Analytics selbstgemacht*](/Apps-Server/matomo)
+- [motionEye *WebCam Recording*](/Apps-Server/motioneye)
 - [Ollama *Setup your own ChatGPT clone in 5 minutes*](/Apps-Server/chatgpt-clone)
 - [SearXNG *Die eigene Suchmaschine*](/Apps-Server/SearXNG)
 - [VS Code Server *Visual Studio Code im Webinterface mit Docker und Caddy*](/Apps-Server/vscode-web)
