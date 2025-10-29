@@ -2,7 +2,7 @@
 title: Github Pages für Laien - Deine kostenlose Website, erstellt wie ein Profi
 description: 
 published: true
-date: 2025-10-22T16:48:24.209Z
+date: 2025-10-29T12:43:53.263Z
 tags: wcms
 editor: markdown
 dateCreated: 2025-10-22T16:48:24.209Z

@@ -2,8 +2,8 @@
 title: Caddy
 description:  Reverse Proxy für Docker Container
 published: true
-date: 2025-10-26T11:58:45.759Z
-tags: docker, linux
+date: 2025-10-29T12:43:36.722Z
+tags: linux, docker
 editor: markdown
 dateCreated: 2025-10-21T16:17:43.137Z
 ---

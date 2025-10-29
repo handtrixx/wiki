@@ -2,7 +2,7 @@
 title: Distrobox - oder: "Noch unabhängiger in Linux"
 description: 
 published: true
-date: 2025-10-22T16:26:19.685Z
+date: 2025-10-29T12:43:50.056Z
 tags: linux
 editor: markdown
 dateCreated: 2025-10-22T16:26:19.685Z

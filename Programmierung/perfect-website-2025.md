@@ -2,7 +2,7 @@
 title: Herr Doktor, ich habe Wordpress, kann man da noch etwas machen?
 description: 
 published: true
-date: 2025-10-22T16:22:26.453Z
+date: 2025-10-29T12:43:48.607Z
 tags: wcms
 editor: markdown
 dateCreated: 2025-10-22T16:22:26.453Z

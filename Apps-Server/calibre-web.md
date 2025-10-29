@@ -2,7 +2,7 @@
 title: Calibre Web
 description: Deine Bibliothek immer im Zugriff
 published: true
-date: 2025-10-27T10:58:04.500Z
+date: 2025-10-29T12:44:11.761Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-27T10:58:04.500Z

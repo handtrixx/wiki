@@ -2,7 +2,7 @@
 title: Bergpark Kassel
 description: Ein Erfahrungsbericht vom UNESCO Welterbe des Bergparks in Kassel
 published: true
-date: 2025-10-19T14:25:23.478Z
+date: 2025-10-29T12:43:12.472Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T14:17:27.820Z

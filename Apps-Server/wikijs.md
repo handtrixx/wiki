@@ -2,7 +2,7 @@
 title: Wiki.js
 description: Dein eigenes Wikipedia
 published: true
-date: 2025-10-27T09:29:16.554Z
+date: 2025-10-29T12:44:07.482Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T17:15:07.135Z

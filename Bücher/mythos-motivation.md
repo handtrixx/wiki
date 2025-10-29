@@ -2,7 +2,7 @@
 title: Mythos Motivation
 description: 
 published: true
-date: 2025-10-21T17:32:40.473Z
+date: 2025-10-29T12:43:43.902Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-21T17:32:40.473Z

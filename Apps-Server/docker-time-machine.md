@@ -2,7 +2,7 @@
 title: Apple Time Machine
 description: Backup auf einen Netzwerkspeicher mit Linux und Docker Compose
 published: true
-date: 2025-10-26T11:58:11.805Z
+date: 2025-10-29T12:43:47.088Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-22T16:19:02.245Z

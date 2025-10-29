@@ -2,7 +2,7 @@
 title: Mindset
 description: 
 published: true
-date: 2025-10-25T17:34:37.374Z
+date: 2025-10-29T12:43:32.156Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-20T19:52:09.671Z

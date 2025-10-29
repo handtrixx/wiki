@@ -2,7 +2,7 @@
 title: motionEye
 description: Kameraufzeichnungen
 published: true
-date: 2025-10-29T10:11:09.042Z
+date: 2025-10-29T12:44:14.835Z
 tags: docker, homeserver
 editor: markdown
 dateCreated: 2025-10-29T10:11:09.042Z

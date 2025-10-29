@@ -2,7 +2,7 @@
 title: Wordpress
 description: Redis Objekt- und Caddy Seitencache für WordPress unter Docker einrichten
 published: true
-date: 2025-10-26T16:47:16.681Z
+date: 2025-10-29T12:43:27.491Z
 tags: wcms
 editor: markdown
 dateCreated: 2025-10-20T19:35:33.359Z

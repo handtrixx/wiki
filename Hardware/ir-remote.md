@@ -2,7 +2,7 @@
 title: IR-Remote Control 4.0 – Alles ins IoT!
 description: 
 published: true
-date: 2025-10-19T15:55:42.769Z
+date: 2025-10-29T12:43:20.096Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T15:55:41.878Z

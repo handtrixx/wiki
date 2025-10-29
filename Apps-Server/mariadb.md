@@ -2,7 +2,7 @@
 title: MariaDB
 description: Die bessere Alternative zu MySQL
 published: true
-date: 2025-10-29T12:35:10.087Z
+date: 2025-10-29T12:44:20.569Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T12:35:10.087Z

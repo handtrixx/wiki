@@ -2,7 +2,7 @@
 title: Mobiltelefone 2025: Der King in Datenschutz und Nachhaltigkeit
 description: 
 published: true
-date: 2025-10-22T16:37:24.016Z
+date: 2025-10-29T12:43:51.660Z
 tags: android
 editor: markdown
 dateCreated: 2025-10-22T16:37:24.016Z

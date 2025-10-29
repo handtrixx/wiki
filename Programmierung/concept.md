@@ -2,7 +2,7 @@
 title: Die (beinahe) perfekte Website - Konzept
 description: 
 published: true
-date: 2025-10-19T15:44:09.467Z
+date: 2025-10-29T12:43:15.642Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T15:44:08.557Z

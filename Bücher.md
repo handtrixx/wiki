@@ -2,7 +2,7 @@
 title: Bücher
 description: 
 published: true
-date: 2025-10-26T17:11:52.808Z
+date: 2025-10-29T12:44:04.727Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:46:57.019Z

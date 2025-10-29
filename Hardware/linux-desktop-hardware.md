@@ -2,7 +2,7 @@
 title: Linux auf dem Desktop: Meine Suche nach der perfekten Hardware
 description: 
 published: true
-date: 2025-10-24T17:12:33.044Z
+date: 2025-10-29T12:43:56.200Z
 tags: linux
 editor: markdown
 dateCreated: 2025-10-24T17:12:33.044Z

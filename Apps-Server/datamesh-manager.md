@@ -2,7 +2,7 @@
 title: Data Mesh Manager
 description: Verwalten von Datenprodukten und Data Contracts
 published: true
-date: 2025-10-29T10:23:33.682Z
+date: 2025-10-29T12:44:16.105Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T10:19:43.347Z

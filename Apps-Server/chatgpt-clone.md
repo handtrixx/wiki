@@ -2,7 +2,7 @@
 title: Ollama
 description: Setup your own ChatGPT clone in 5 minutes
 published: true
-date: 2025-10-26T16:47:54.188Z
+date: 2025-10-29T12:43:39.582Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-21T17:24:50.657Z

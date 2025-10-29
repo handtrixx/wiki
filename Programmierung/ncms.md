@@ -2,7 +2,7 @@
 title: Noch ein Web Content Management System?! Ich stelle vor: nCMS
 description: 
 published: true
-date: 2025-10-19T16:12:37.933Z
+date: 2025-10-29T12:43:21.581Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T16:10:49.969Z

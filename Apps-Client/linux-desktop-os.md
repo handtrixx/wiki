@@ -2,7 +2,7 @@
 title: Mein Linux Desktop: Welches Linux darf es denn sein?
 description: 
 published: true
-date: 2025-10-24T17:13:57.663Z
+date: 2025-10-29T12:43:57.864Z
 tags: linux
 editor: markdown
 dateCreated: 2025-10-24T17:13:57.663Z

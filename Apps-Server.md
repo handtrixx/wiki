@@ -2,7 +2,7 @@
 title: Server & Docker Apps
 description: 
 published: true
-date: 2025-10-29T10:12:04.587Z
+date: 2025-10-29T12:44:00.657Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-26T11:44:24.707Z

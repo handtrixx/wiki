@@ -2,7 +2,7 @@
 title: Der dunkle Schirm
 description: 
 published: true
-date: 2025-10-21T17:30:37.317Z
+date: 2025-10-29T12:43:42.595Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-21T17:30:37.317Z

@@ -2,7 +2,7 @@
 title: Reanimation: Auf MacOS mit 3 Fingern Fenster schieben
 description: 
 published: true
-date: 2025-10-20T17:17:36.697Z
+date: 2025-10-29T12:43:13.977Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T14:53:22.897Z

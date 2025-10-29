@@ -2,7 +2,7 @@
 title: SearXNG
 description: 
 published: true
-date: 2025-10-20T19:23:28.443Z
+date: 2025-10-29T12:43:23.103Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-20T19:23:28.443Z

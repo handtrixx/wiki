@@ -2,7 +2,7 @@
 title: Artalk
 description: Dein eigenes Kommentar-Managementsystem
 published: true
-date: 2025-10-27T10:46:18.141Z
+date: 2025-10-29T12:44:10.378Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-27T10:33:21.545Z

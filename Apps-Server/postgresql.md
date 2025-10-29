@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: Die PSQL Datenbank optimiert für und durch Docker
 published: true
-date: 2025-10-29T12:30:39.507Z
+date: 2025-10-29T12:44:19.078Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T12:29:18.468Z

@@ -2,7 +2,7 @@
 title: Webtop
 description: Dein Desktop im Browser
 published: true
-date: 2025-10-29T10:23:00.748Z
+date: 2025-10-29T12:44:17.555Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T10:23:00.748Z

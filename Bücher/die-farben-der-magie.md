@@ -2,7 +2,7 @@
 title: Die Farben der Magie
 description: 
 published: true
-date: 2025-10-20T19:26:44.425Z
+date: 2025-10-29T12:43:24.585Z
 tags: bücher
 editor: markdown
 dateCreated: 2025-10-20T19:26:44.425Z

@@ -2,7 +2,7 @@
 title: Opencloud
 description: Besser als iCloud, Google Cloud und Co.
 published: true
-date: 2025-10-27T13:15:57.946Z
+date: 2025-10-29T12:44:13.306Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-27T13:15:57.946Z

@@ -2,7 +2,7 @@
 title: Cockpit WCMS
 description: Headless CMS, APIs und IoT für die Website
 published: true
-date: 2025-10-26T12:03:30.958Z
+date: 2025-10-29T12:43:16.910Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T15:47:44.243Z
