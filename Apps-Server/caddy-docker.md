@@ -2,7 +2,7 @@
 title: Caddy
 description: Reverse Proxy für Docker Container
 published: true
-date: 2025-10-29T15:01:40.197Z
+date: 2025-10-29T15:03:28.439Z
 tags: docker, linux
 editor: markdown
 dateCreated: 2025-10-29T13:32:19.415Z
@@ -40,6 +40,12 @@ networks:
 ```
 
 # Kommandos
+
+
+#To reload Caddy after making changes to your Caddyfile:
+#docker exec -w /etc/caddy caddy caddy fmt --overwrite
+#docker exec -w /etc/caddy caddy caddy reload
+#docker exec -w /etc/caddy caddy caddy hash-password -p password
 
 
 ## Warum ein Reverse Proxy für Docker Container?
