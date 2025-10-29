@@ -1,8 +1,8 @@
 ---
-title: Data Mesh Manager (Community Edition)
+title: Data Mesh Manager
 description: Verwalten von Datenprodukten und Data Contracts
 published: true
-date: 2025-10-29T10:19:43.347Z
+date: 2025-10-29T10:23:33.682Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T10:19:43.347Z
