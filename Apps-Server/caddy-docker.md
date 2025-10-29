@@ -1,11 +1,11 @@
 ---
 title: Caddy
-description:  Reverse Proxy für Docker Container
+description: Reverse Proxy für Docker Container
 published: true
-date: 2025-10-29T12:43:36.722Z
-tags: linux, docker
+date: 2025-10-29T15:01:40.197Z
+tags: docker, linux
 editor: markdown
-dateCreated: 2025-10-21T16:17:43.137Z
+dateCreated: 2025-10-29T13:32:19.415Z
 ---
 
 Heute beschreibe ich was ein Reverse Proxy ist und warum er in deiner Docker Landschaft nicht fehlen darf.
@@ -15,6 +15,32 @@ An Traefik störte mich wiederum die aufgeblähte Konfiguration, sowie die viele
 werden müssen. Caddy bietet mit einer CLI und einer API, die gewünschte Flexibilität und lässt sich auch einfach sichern/wiederherstellen.
 
 ![02_caddy-open-graph.jpg](/assets/linux/caddy-docker/02_caddy-open-graph.jpg){.align-center}
+
+# compose.yml File
+
+```yaml
+services:
+  caddy:
+    container_name: caddy
+    image: caddy:latest
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy_data:/data
+      - ./caddy_config:/config
+    networks:
+      - caddy
+networks:
+    caddy:
+        external: true
+```
+
+# Kommandos
+
 
 ## Warum ein Reverse Proxy für Docker Container?
 
@@ -35,35 +61,6 @@ Diesen Namen siehst nur du in deinen Konfigurationsdateien und in Docker.
 
 Caddy selbst stellen wir ebenfalls über einen Docker Container zur Verfügung, auf dem wir die Ports 80 und 443 exponieren. 
 Eine mögliche Docker Compose Datei „compose.yml“ dazu kann so aussehen:
-
-```yaml
-services:
-  caddy:
-    container_name: caddy
-    image: caddy:latest
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-      - "443:443/udp"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./site:/srv
-      - ./caddy_data:/data
-      - ./caddy_config:/config
-    logging:
-        options:
-          max-size: "10m"
-          max-file: "3"
-    networks:
-        - caddy
-volumes:
-  caddy_data:
-  caddy_config:
-networks:
-    caddy:
-        external: true
-```
 
 Bevor wir den Container starten, legen wir im gleichen Verzeichnis eine Datei „Caddyfile“ an. 
 Diese musst du auf deine Bedürfnisse anpassen und orientiert sich hier am oben gezeigten Beispiel:
@@ -104,69 +101,7 @@ durchstarten und könnt so Dowtimes durch folgenden Befehl, der die Konfiguratio
 docker compose exec -w /etc/caddy caddy caddy reload
 ```
 
-Nun gilt es noch unsere Applikationen im Caddy Netzwerk sichtbar zu machen. 
-Hier ein Beispiel einer WordPress Installation in der der Applikationsserver von Caddy aus erreicht werden kann, 
-aber nicht der Datenbankserver:
 
-```yaml
-services:
-    wordpresscontainer1:
-        container_name: wordpresscontainer1
-        depends_on:
-            - wordpresscontainer1-db
-        image: wordpress:latest
-        logging:
-            options:
-              max-size: "10m"
-              max-file: "3"
-        volumes:
-            - ./data:/var/www/html
-            - /etc/localtime:/etc/localtime:ro
-        restart: unless-stopped
-        environment:
-            WORDPRESS_DB_HOST: wordpresscontainer1-db:3306
-            WORDPRESS_DB_USER: EUERUSER
-            WORDPRESS_DB_PASSWORD: EUERSUPERPASSWORT  
-        networks:
-            - default
-            - caddy
-    wordpresscontainer1-db:
-        container_name: wordpresscontainer1-db
-        image: mysql:5.7
-        logging:
-            options:
-              max-size: "10m"
-              max-file: "3"
-        volumes:
-            - ./db:/var/lib/mysql
-        restart: unless-stopped
-        environment:
-            MYSQL_ROOT_PASSWORD: ROOTSUPERPASSWORT
-            MYSQL_DATABASE: wordpress
-            MYSQL_USER: EUERUSER
-            MYSQL_PASSWORD: EUERSUPERPASSWORT
-        networks:
-            - default
-volumes:
-    data:
-    db:
-networks:
-    caddy:
-        external: true
-```
- ## Fazit
 
- Bis jetzt ist Caddy genau der Kompromiss nach dem ich suchte. 
- Die Konfiguration über eine einzelne Datei lässt sich super einfach sichern und bei Bedarf wiederherstellen. 
- Bei Wunsch nach mehr, stellt Caddy alternativ auch die Konfiguration über eine API als Option bereit. 
- Ein Blick in die technische Dokumentation unter https://caddyserver.com/docs/ offenbart, 
- dass Caddy auch noch viel mehr kann als das gezeigte. Noch nicht herausgefunden habe ich, 
- ob ich ähnlich wie bei Traefik auch zusätzliche Module/Plugins wie Crowdsec, für eine erweiterte Sicherheit 
- aktivieren kann. Generell würde ich nie wieder zurück zum Nginx Proxy Manager wechseln, 
- halte aber Traefik bei komplizierteren Szenarien, evtl. für die bessere Wahl. 
- Für den Hobby Fullstack Entwickler wie mich, ist Caddy aber erstmal eine beinah rundum glücklich Lösung.
+# Quellen
 
- ## Update 12.03.2025
-
- Ich nutze immernoch Caddy und bin nach wie vor absolut damit zufrieden. Ein wechsel z.B. zu Traefik ist auch nach 
- vielen Monaten nicht nötig.
