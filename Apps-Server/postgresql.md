@@ -1,11 +1,11 @@
 ---
-title: PostgreSQL
-description: Die PSQL Datenbank optimiert für und durch Docker
+title: Databases
+description: PSQL, MariaDB, MySQL optimized for Docker
 published: true
-date: 2025-10-29T12:44:19.078Z
+date: 2025-10-29T15:18:23.070Z
 tags: docker
 editor: markdown
-dateCreated: 2025-10-29T12:29:18.468Z
+dateCreated: 2025-10-29T13:32:33.073Z
 ---
 
 # Compose File
