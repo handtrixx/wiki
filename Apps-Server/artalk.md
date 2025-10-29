@@ -2,10 +2,10 @@
 title: Artalk
 description: Dein eigenes Kommentar-Managementsystem
 published: true
-date: 2025-10-29T12:44:10.378Z
+date: 2025-10-29T14:42:58.031Z
 tags: docker
 editor: markdown
-dateCreated: 2025-10-27T10:33:21.545Z
+dateCreated: 2025-10-29T13:32:16.938Z
 ---
 
 [Artalk](https://artalk.js.org), eine in GO geschriebene Anwendung, dient dazu eine Kommentarfunktion in WebApps einzubinden und zu verwalten. Das kann entweder durch eine native Integration wie bei [Wiki.js](/Apps-Server/wikijs) oder manuell ober die Artalk API erfolgen. Artalk ist Open-Source und lässt sich, wie im Beispiel hier, in einem Docker Container auf einem Server betreiben.
@@ -30,13 +30,21 @@ services:
       default:
       caddy:
     environment:
-      - TZ=Euorope/Berlin
-      - ATK_LOCALE=en
-      - ATK_SITE_DEFAULT=wiki
-      - ATK_SITE_URL=https://wiki.niklas-stephan.de
+      - TZ=${TZ}
+      - ATK_LOCALE=${TZ}
+      - ATK_SITE_DEFAULT=${TZ}
+      - ATK_SITE_URL${TZ}
 networks:
   caddy:
     external: true
+```
+
+# .env File
+```ini
+TZ=Euorope/Berlin
+ATK_LOCALE=en
+ATK_SITE_DEFAULT=wiki
+ATK_SITE_URL=https://wiki.niklas-stephan.de
 ```
 
 # Konfiguration
