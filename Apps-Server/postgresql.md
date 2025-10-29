@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: Die PSQL Datenbank optimiert für und durch Docker
 published: true
-date: 2025-10-29T12:29:18.468Z
+date: 2025-10-29T12:30:39.507Z
 tags: docker
 editor: markdown
 dateCreated: 2025-10-29T12:29:18.468Z
@@ -13,7 +13,7 @@ dateCreated: 2025-10-29T12:29:18.468Z
 ```yaml
 services:
   db:
-    container_name: wikijsdb
+    container_name: YOURCONTAINERNAME
     image: postgres:15-alpine
     user: "1000:1000"
     environment:
