@@ -2,7 +2,7 @@
 title: Gluetun and NZB
 description: VPN Proxy für Docker
 published: true
-date: 2025-11-01T12:27:12.162Z
+date: 2025-11-01T12:28:28.376Z
 tags: docker
 editor: markdown
 dateCreated: 2025-11-01T08:45:58.904Z
@@ -11,7 +11,7 @@ dateCreated: 2025-11-01T08:45:58.904Z
 # Concept
 
 ```mermaid
-graph TD;
+flowchart LR;
 subgraph AA [Docker Containers]
 A[gluetun];
 B[nzbhydra2];
