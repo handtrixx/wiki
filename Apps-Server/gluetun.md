@@ -2,11 +2,28 @@
 title: Gluetun and NZB
 description: VPN Proxy für Docker
 published: true
-date: 2025-11-01T08:45:58.904Z
+date: 2025-11-01T12:27:12.162Z
 tags: docker
 editor: markdown
 dateCreated: 2025-11-01T08:45:58.904Z
 ---
+
+# Concept
+
+```mermaid
+graph TD;
+subgraph AA [Docker Containers]
+A[gluetun];
+B[nzbhydra2];
+C[Node.js client];
+end
+E[Internet];
+Z[gluetun VPN Proxy Network];
+A --> Z;
+B --> Z;
+C --> Z;
+Z --> E;
+```
 
 # compose.yml file
 ```yaml
